@@ -23,6 +23,3 @@ ngrok
 /storage/installed
 /storage/framework/laravel-excel/
 grumphp.yml
-/bootstrap/cache/*
-storage/reviewed
-storage/fonts/installed-fonts.json
