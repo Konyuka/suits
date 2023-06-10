@@ -1,6 +1,23 @@
 # Readme for worksuite
 ### Plugins used in the app
 
+<!-- instaal scoop powershel -->
+<!-- iex (new-object net.webclient).downloadstring('https://get.scoop.sh') -->
+<!-- 'Set-ExecutionPolicy RemoteSigned -Scope CurrentUser' -->
+
+<!-- install planet scale cli -->
+<!-- scoop bucket add pscale https://github.com/planetscale/scoop-bucket.git -->
+<!-- scoop install pscale mysql -->
+
+<!-- login to planet scale  -->
+<!-- pscale auth login -->
+
+<!-- mysql --ssl-mode=VERIFY_IDENTITY --ssl-ca=/etc/ssl/certs/ca-certificates.crt -->
+pscale run -e MYSQL_SSL_MODE=VERIFY_IDENTITY -e MYSQL_SSL_CA=/etc/ssl/certs/ca-certificates.crt -- mysql
+
+
+
+
 <ol>
     <li>
         <strong>Bootstrap 4 </strong> - <a href="https://getbootstrap.com/">https://getbootstrap.com/</a>
